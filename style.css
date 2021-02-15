@@ -1,0 +1,151 @@
+
+.buttons-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+}
+
+.buttons-wrapper>*{
+    margin:5px;
+}
+
+.btn-wrapper{
+    width: 45%;
+}
+
+.btn{
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 7px 15px;
+    color: var(--black);
+    background-color: #F7F7F7;
+    border:2px solid transparent;
+    cursor: pointer;
+    --black: #000000;
+    --white: #FFFFFF;
+    --orange: #FD6839;
+    --blue: #3D5ED3;
+    --darkblue: darkblue;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.btn-small{
+    padding: 5px;
+    min-height: 30px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.btn-wide{
+    width: 100%;
+}
+
+.btn--sm{
+    min-height: 40px;
+    text-transform: uppercase;
+}
+
+.btn--md{
+    min-height: 44px;
+    text-transform: uppercase;
+}
+
+.btn--lg{
+    min-height: 50px;
+    text-transform: uppercase;
+}
+
+.btn__icon--prefix{
+    margin-right: 12px;
+}
+
+.btn .btn__icon--default{
+    display: block;
+}
+
+.btn:hover .btn__icon--default{
+    display: none;
+}
+
+.btn__icon--hover{
+    display: none;
+}
+
+.btn:hover .btn__icon--hover{
+    display: block;
+}
+
+.btn__icon--prefix{
+    margin-right: 12px;
+}
+
+.btn-wide__icon--prefix{
+    margin-right: 9px;
+}
+
+.btn-small__icon{
+    height: 16px;
+    width: 16px;
+}
+
+.btn-small__icon--prefix{
+    margin-right: 5px;
+}
+
+.btn--orange{
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    color: var(--white);
+}
+
+.btn--orange:hover{
+    color: var(--orange);
+    background-color: var(--white);
+}
+
+.btn--bordered{
+    color: var(--orange);
+    background-color: var(--white);
+    border: 2px solid var(--orange);
+}
+
+.btn--bordered:hover{
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.btn--blue {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.btn--blue:hover{
+    outline: 1px solid transparent;
+    background-color: rgba(61,131,211,0.5);
+    color: var(--darkblue);
+}
+
+.btn--grey{
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.btn--grey:hover{
+    color: var(--black);
+    background-color: var(--white);
+    border-color: var(--black);
+}
+
+
+
